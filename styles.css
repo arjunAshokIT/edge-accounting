@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap");
+
+* {
+  /* Select every element on the page */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* aligning items along the cross axis */
+    justify-content: space-between; /* aligns items along the main axis */
+    background-color: #333;
+    opacity: 0.8;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar a {
+    margin: 0 5px;
+    padding: 10px 20px;
+}
+
+
+.navbar a:hover {
+    border-bottom: 2px solid #f6a55a;
+}
+
+
+/* Hero section */
+
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1502899576159-f224dc2349fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    z-index: 1;
+}
+
+.hero .content h1 {
+    font-size: 55px;
+}
+
+.hero .content p  {
+    font-size: 23px;
+    max-width: 600px;
+    margin: 20px;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+.hero * {
+    z-index: 2;
+}
