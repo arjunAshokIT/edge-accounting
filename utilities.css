@@ -1,4 +1,8 @@
 .primary-color {
-    color: #f6a55a;
+  color: #f6a55a;
 }
 
+.bg-primary {
+  background-color: #f6a55a;
+  color: #fff;
+}
