@@ -6,3 +6,63 @@
   background-color: #f6a55a;
   color: #fff;
 }
+
+.bg-secondary {
+  background-color: #676bcf;
+  color: #fff;
+}
+
+
+.button {
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: #f6a55a;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-outline {
+  background: transparent;
+  border: 1px solid white;
+}
+
+.section-padding {
+  padding: 20px 40px;
+}
+
+.section-header {
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-header h2 {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.flex-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.flex-grid .column {
+  width: 25%;
+}
+
+.flex-grid .column img {
+  max-width: 100%;
+  padding: 4px;
+}
+
+
+.flex-items img {
+  height: 300px;
+  border-radius: 50%;
+}

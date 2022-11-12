@@ -13,6 +13,10 @@ body {
   color: #333;
 }
 
+p {
+    margin: 10px 0;
+}
+
 /* Navbar styles */
 .navbar {
     display: flex;
@@ -131,11 +135,20 @@ body {
     width: 100%;
 }
 
+.flex-columns.flex-reverse .row {
+    flex-direction: row-reverse;
+}
+
 .flex-columns .row .column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;    
     flex: 1;
+}
+
+.flex-columns .column-1,
+.flex-columns .column-2 {
+    height: 100%;
 }
 
 
@@ -152,4 +165,18 @@ body {
     justify-content: center;
     padding: 30px;
     height: 100%;
+}
+
+.flex-columns .column-2 h2 {
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+
+.flex-columns .column-2 h4 {
+    margin-bottom: 24px;
+}
+
+.flex-columns .column-2 p {
+    margin-bottom: 24px;
 }
