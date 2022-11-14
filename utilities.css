@@ -12,7 +12,6 @@
   color: #fff;
 }
 
-
 .button {
   padding: 10px 30px;
   border-radius: 5px;
@@ -49,7 +48,6 @@
   padding: 0 4px;
   align-items: center;
   justify-content: center;
-  
 }
 
 .flex-grid .column {
@@ -61,8 +59,9 @@
   padding: 4px;
 }
 
-
 .flex-items img {
   height: 300px;
   border-radius: 50%;
 }
+
+
